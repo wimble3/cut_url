@@ -1,0 +1,54 @@
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header{
+    padding-top: 7%;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+form input {
+    display: block;
+    margin-bottom: 40px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, .4);
+    padding: 10px;
+}
+
+form a {
+    color: yellow;
+}
+
+form label {
+    font-size: 30px;
+}
+
+.border-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, .4);
+    letter-spacing: 2px;
+    transition: 0.2s ease;
+}
+
+.border-button:hover {
+    background: rgba(255, 255, 255, .4);
+}
+
+.response {
+    display: none;
+    margin-top: 40px;
+    color: gray;
+}
