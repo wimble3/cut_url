@@ -1,5 +1,4 @@
 <?php
-
 require_once $_SERVER['DOCUMENT_ROOT'] . '/classes/ShortUrl.php';
 
 if (!empty($_GET['t'])) {
@@ -23,4 +22,3 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php';
 </section>
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php';
-?>
